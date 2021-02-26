@@ -40,4 +40,7 @@ intervalId: null,
 
 
 startBtnRef.addEventListener('click', changeBackground.start.bind(changeBackground));
- stopBtnRef.addEventListener('click', changeBackground.stop.bind(changeBackground));
+stopBtnRef.addEventListener('click', changeBackground.stop.bind(changeBackground));
+ 
+
+console.log(changeBackground);
